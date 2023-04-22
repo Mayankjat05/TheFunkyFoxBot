@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 API_ID = int(getenv("API_ID", "18719789"))
 API_HASH = getenv("API_HASH", "a03c27be3e14aac40f62cb4e95207fae")
-BOT_TOKEN = getenv("BOT_TOKEN", "6237968468:AAGNU1jMqRFRIy9RrJkKpxC164Yruz_7Cq4")
+BOT_TOKEN = getenv("BOT_TOKEN", "6056505972:AAG0KQKGzmL6qNqqtkku1pP_RSK2RxnTZPs")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1001639728821"))
 OWNER_ID = list(map(int, getenv("SUDO_USERS", "5709622852 5917071362 6018550523 5807975896 5416887843").split()))
 DB_URI = getenv("DATABASE_URL", "postgres://rtzsspzt:DLuJvx8TQGqYqt0XKR9CDnLZmRs6UMr3@berry.db.elephantsql.com/rtzsspzt")
@@ -15,7 +15,7 @@ FORCE_SUB_CHANNEL = int(getenv("FORCE_SUB_CHANNEL", "-1001831916389"))
 BOT_WORKERS = int(getenv("BOT_WORKERS", "5"))
 
 # --------- ʟɪɴᴋ sʜᴏʀᴛɴᴇʀ ᴄᴏɴᴠᴇʀᴛᴇʀ ---------
-URL_SHORTNER_API = getenv("URL_SHORTNER_API", "https://urlshortx.com/api?api")
+URL_SHORTNER_API = getenv("URL_SHORTNER_API", "api")
 URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "9e057515d222131456b51729e54033ab4e1d6936")
 
 
