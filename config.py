@@ -15,8 +15,8 @@ FORCE_SUB_CHANNEL = int(getenv("FORCE_SUB_CHANNEL", "-1001831916389"))
 BOT_WORKERS = int(getenv("BOT_WORKERS", "5"))
 
 # --------- ʟɪɴᴋ sʜᴏʀᴛɴᴇʀ ᴄᴏɴᴠᴇʀᴛᴇʀ ---------
-URL_SHORTNER_API = getenv("URL_SHORTNER_API", "https://tinyfy.in/api?api")
-URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "53747ced8fca3d603c1a3058309dad9beed528a0")
+URL_SHORTNER_API = getenv("URL_SHORTNER_API", "http://urlshortx.com/api?api")
+URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "c460f2f1a0f68b2c56cda7f12121c210ed10b08b")
 
 
 default_custom_caption = """
