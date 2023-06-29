@@ -3,6 +3,7 @@ from bot import Bot
 from pyrogram import filters, Client, enums
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
+from TheFunkyFox.stats import get_shortlink
 from config import OWNER_ID, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from TheFunkyFox.helper_func import encode
 
