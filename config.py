@@ -20,12 +20,8 @@ URL_SHORTNER_API_KEY = getenv("URL_SHORTNER_API_KEY", "c460f2f1a0f68b2c56cda7f12
 
 
 default_custom_caption = """
- {file_caption}
-━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   ••• ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴠɪᴅᴇᴏ •••
-
-
-
+📁 {file_caption}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━   
 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴠɪᴅᴇᴏ ᴛʜᴀɴ ᴘʟᴇᴀsᴇ 
 ᴀᴅᴅ sᴏᴍᴇ ᴍᴇᴍʙᴇʀ ᴀɴᴅ sʜᴀʀᴇ ᴛʜᴇ ʟɪɴᴋ
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
